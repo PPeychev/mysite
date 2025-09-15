@@ -3,11 +3,29 @@
 <title>Hello World in Git</title>
 <meta name="description" content="hello world in Git" />
 <script src="test.js"></script>
+<style>
+    .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 20%;
+    }
+
+    .button:hover {
+        background-color: #555;
+        cursor: pointer;
+    }
+</style>
 </head>
 <body>
     <h1>Hello World!</h1>
     <p id="demo" style="display:none">Hello JavaScript!</p>
-    <button type="button" id="btn" onclick="myFunction()">Show text</button>
+    <button class="button" type="button" id="btn" onclick="myFunction()">Show text</button>
     <ul>
         <li><a href="about.html">About</a></li>
     </ul>
